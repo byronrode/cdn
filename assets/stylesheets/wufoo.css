@@ -1,0 +1,40 @@
+/* Logo */
+#logo{display:none;}
+body,#container{background:#dcdcdc;}
+form.wufoo{padding-top:20px;}
+.wufoo input, .wufoo textarea{border:1px solid #ccc;border-radius:4px;}
+.wufoo .info{display:none;}
+.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
+.wufoo .focused, .wufoo li.focused {background:#afafaf;}
+.wufoo .instruct{background-color:#2d2d2d;color:#fff;border:none;}
+.rightLabel label.desc {text-align:left;}
+.leftLabel label.desc, .rightLabel label.desc{float:none;}
+.leftLabel p.instruct, .rightLabel p.instruct{margin-top:-1px;}
+.leftLabel .buttons, .rightLabel .buttons{padding-left:0;}
+.leftLabel .buttons div, .rightLabel .buttons div{margin:0;}
+form li.buttons input.submit{border:0;background:#BF1E2E;border-radius: 4px;color:#fff;font-size: 14px;font-weight: 300;line-height: 100%;margin: 0px 0 0px 8px;padding: 4px 8px;position: relative;text-shadow: #88101C 1px 1px 0px;}
+.leftLabel li, .rightLabel li{width:inherit;}
+#errorLi {background: #fff !important;border:none;border-radius:4px;margin: 15px 0px;padding: 1em 0px;text-align: center;width: 100% !important;color:##BF1E2E;}
+#errorMsgLbl {color: #BF1E2E !important;font-size: 125%;margin: 0px 0px 5px;padding: 0px;}
+#errorMsg strong {background-color: #DAC7C7 !important;border-radius:4px;color: #BF1E2E !important;padding: 2px 8px;}
+form li.error {background-color: #DAC7C7 !important;display: block !important;margin-bottom: 3px !important;color: #BF1E2E !important;}
+
+/* Borders */
+#container{border:0 solid #cccccc}
+.wufoo .info{border-bottom:1px dotted #CCCCCC}
+.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+.wufoo .info h2{font-size:160%;font-family:inherit;color:#000000}
+.wufoo .info div{font-size:95%;font-family:inherit;color:#fff}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
+.wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
+.wufoo label.desc{font-size:95%;font-family:inherit;color:#444444}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
+.wufoo label.choice{color:#444444}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#fff}
+.wufoo .instruct small{color:#fff;}
+
+/* Drop Shadows */
+#top, #bottom{display:none;}
